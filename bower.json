@@ -1,0 +1,17 @@
+{
+  "name": "qq music",
+  "homepage": "https://github.com/DJYpersonal/kecheng",
+  "description": "",
+  "main": "index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.4"
+  }
+}

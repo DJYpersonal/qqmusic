@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>qq音乐</title>
+	<link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+	<audio src=""></audio>
+	<div class="player">
+		<div class="player_left">
+			<div class="music_info">
+				<a href="" class="music_info_pic"></a>
+				<div class="music_info_main">
+					<p class="music_name">
+						<span id="music_name">听我想听的歌</span>
+						<a href="" class="icon_radio"></a>
+					</p>
+					<p class="singer_name">qq音乐</p>
+					<p class="play_date"></p>
+					<p class="music_op" style="display:none">
+						<strong class="btn_like"></strong>
+						<strong class="btn_share"></strong>
+					</p>
+				</div>
+			</div>
+			<div class="bar_op">
+				<strong title="上一首( [ )" class="prev_bt" id="prevbt"></strong>
+				<strong title="播放( P )" class="play_bt" id="btnplay"></strong>
+				<strong title="下一首( ] )" class="next_bt" id="nextbt"></strong>
+				<strong title="列表循环" class="cycle_bt" id="btnPlayway"></strong>
+				<p title="音量调节" class="volume">
+					<span title="点击设为静音" class="volume_icon" id="spanmute"></span>
+					<span class="volume_regulate" id="spanvolume">
+						<span class="volume_bar" id="spanvolumebar" style="width:100%;"></span>
+						<span class="volume_op" id="spanvolumeop" style="left:100%;"></span>
+					</span>
+				</p>
+			</div>
+			<div class="playbar_select" id="divselect" style="display:none">
+				<strong title="顺序播放" class="ordered_bt"></strong>
+				<strong title="随机播放" class="unordered_bt"></strong>
+				<strong title="单曲循环" class="single_bt"></strong>
+				<strong title="列表循环" class="cycle_bt"></strong>
+			</div>
+			<p class="player_bar">
+				<span class="bg_bar" id="bgbar"></span>
+				<span class="download_bar" id="downloadbar" style="width:0%"></span>
+				<span class="current_bar" id="currentbar" style="width:0%"></span>
+				<span class="progress_op" id="progressop" styel="left:0%"></span>
+			</p>
+			<div class="time_show" style="display:none">
+				<p id="time_show">00:14</p>
+				<span class="icon_arrow_foot">
+					<i class="foot_border"></i>
+					<i class="foot_arrow"></i>
+				</span>
+			</div>
+		</div>
+		<span title="展开播放列表" class="open_list" id="spansongnum1" style="display:block">
+			<span></span>
+		</span>
+		<span title="显示歌词( L )" class="btn_lyrics" id="btnlrc"></span>
+		<button type="button" class="folded_bt" title="点击收起" id="btnfold"></button>
+		<div class="play_list_frame" id="divplayframe">
+			<div class="play_list_title">
+				<!-- 单曲FM修改 -->
+				<ul id="tab_container" style="width:270px;">
+					<li id="playlist_tab" class="current">
+						<a href="javascript:;">播放列表</a>
+						<i></i>
+					</li>
+					<li id="fm_tab" style="display:none" class="">
+						<a href="javascript:;">单曲电台列表</a>
+						<i></i>
+					</li>
+				</ul>
+				<span id="clear_list" class="clear_list" style="display: block;">清空列表</span>
+				<strong title="收起播放列表" class="close_list" id="btnclose"></strong>
+			</div>
+
+			<div class="play_list" id="divlistmain">
+				<div class="play_list_point" id="divnulllist" style="display: none;">
+					<div>
+						<h4>您当前还未添加任何歌曲</h4>
+						<p>您可以：</p>
+						<p>
+							在<a href="http://y.qq.com/" title="QQ音乐">首页</a>
+							选择试听我们推荐的歌曲。
+						</p>
+						<p
+						>在<a href="http://y.qq.com/y/static/singer/index/all_hot_1.html?pgv_ref=qqmusic.y.player" target="contentFrame" title="乐库">
+						乐库</a>
+						中查找您想听的歌曲。
+					</p>
+				</div>
+			</div>
+			<div class="play_list_main" id="divplaylist">
+				<div class="single_list" id="divsonglist">
+					<ul class="cc">
+
+
+					</ul>
+				</div>
+			</div>
+			<div id="divalbumlist" style="display:none;">
+			</div>
+		</div>
+
+		<div class="play_list_scroll" style="top:0px;display:none;">
+			<span id="spanbar" class="play_list_scrolling" style="left: 3px; top: 0px;"></span>
+		</div>
+	</div>
+</div>
+</div>
+</body>
+<script src="./bower_components/jquery/dist/jquery.js"></script>
+<script src="./js/index.js"></script>
+</html>

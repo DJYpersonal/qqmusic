@@ -1,0 +1,93 @@
+[
+  {
+    "filename": "./music/Hello, Hello.mp3",
+    "duration": "03:42",
+    "title": "Hello, Hello",
+    "album": "Hello, Hello",
+    "artist": "黄子韬&Wiz Khalifa"
+  },
+  {
+    "filename": "./music/IF YOU.mp3",
+    "duration": "04:27",
+    "title": "IF YOU",
+    "album": "我是歌手第四季 第十四期 双年巅峰会",
+    "artist": "韩红"
+  },
+  {
+    "filename": "./music/一次就好.mp3",
+    "duration": "04:12",
+    "title": "一次就好",
+    "album": "我想和你唱 第三期",
+    "artist": "杨宗纬"
+  },
+  {
+    "filename": "./music/下次遇见你.mp3",
+    "duration": "04:06",
+    "title": "下次遇见你",
+    "album": "下次遇见你",
+    "artist": "贺敬轩"
+  },
+  {
+    "filename": "./music/四叶草.mp3",
+    "duration": "04:31",
+    "title": "四叶草",
+    "album": "四叶草",
+    "artist": "李易峰"
+  },
+  {
+    "filename": "./music/大圈圈.mp3",
+    "duration": "03:32",
+    "title": "大圈圈",
+    "album": "大圈圈",
+    "artist": "胡艾彤"
+  },
+  {
+    "filename": "./music/时间都去哪儿了.mp3",
+    "duration": "04:47",
+    "title": "时间都去哪儿了",
+    "album": "曹俊鸿的异想音乐-精挑细选",
+    "artist": "娃娃"
+  },
+  {
+    "filename": "./music/朋友.mp3",
+    "duration": "04:39",
+    "title": "朋友__周华健",
+    "album": "且试天下",
+    "artist": "网络歌手"
+  },
+  {
+    "filename": "./music/李白.mp3",
+    "duration": "04:33",
+    "title": "李白",
+    "album": "模特",
+    "artist": "李荣浩"
+  },
+  {
+    "filename": "./music/模样.mp3",
+    "duration": "04:01",
+    "title": "模样",
+    "album": "模样",
+    "artist": "回音哥"
+  },
+  {
+    "filename": "./music/演员.mp3",
+    "duration": "04:21",
+    "title": "演员",
+    "album": "绅士",
+    "artist": "薛之谦"
+  },
+  {
+    "filename": "./music/社会摇.mp3",
+    "duration": "04:09",
+    "title": "社会摇",
+    "album": "社会摇",
+    "artist": "萧全"
+  },
+  {
+    "filename": "./music/青春修炼手册.mp3",
+    "duration": "04:23",
+    "title": "青春修炼手册",
+    "album": "青春修炼手册",
+    "artist": "TFBOYS"
+  }
+]
